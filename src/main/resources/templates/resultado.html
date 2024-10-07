@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
+    <link rel="stylesheet" href="/css/styles.css">
     <title>Resultado da Conversão</title>
 </head>
 <body>
+<div class="container">
 <h1>Resultado da Conversão</h1>
-<p>O resultado da conversão é: <span th:text="${resultado}"></span></p>
+<p class="resultado">Valor Convertido: <span th:text="${resultado}"></span></p>
 <a href="/">Voltar</a>
+<div >
 </body>
 </html>
