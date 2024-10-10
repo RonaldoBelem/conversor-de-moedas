@@ -1,64 +1,79 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body{
-    height: 650px;
+  
+    --cor1: #050259;
+    --cor2: #A0A4F2;
+    --cor3: #BBBDF2;
+    --cor4: #3DD973;
+    --cor5: #F2F2F2;
+  
+    color: var(--cor1);
+  }
+  
+  body {
+    background: linear-gradient(var(--cor2),var(--cor5));
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.container{
+  }
+  
+  .container {
     margin: 5px;
-    background-color: aqua;
+    background-color: var(--cor5);
     text-align: center;
     padding: 40px;
+    border: 1px solid;
     border-radius: 10px;
-}
-
-h1{
+  }
+  
+  h1 {
     margin-bottom: 30px;
-}
-
-label{
+  }
+  
+  label {
     font-size: 20px;
-}
-select{
+    font-weight: bold;
+  }
+  select {
     padding: 5px 10px;
     border-radius: 5px;
     font-weight: bolder;
-}
-p{
+  }
+  p {
     margin: 15px 0;
     font-size: 20px;
-}
-input{
+  }
+  input {
     height: 30px;
     padding: 0 10px;
     font-size: 18px;
-}
-button{
+  }
+  button {
+    background: var(--cor4);
     margin: 20px 0;
-    padding: 5px 0;
-    font-size: 18px;
-    width: 100%;
-    border-radius: 5px;
-}
-.resultado{
-    margin-bottom: 30px;
+    padding: 6px 0;
+    font-size: 20px;
     font-weight: bolder;
-}
-
-a{
+    color: var(--cor1);
+    width: 100%;
+    border-radius: 10px;
+  }
+  .resultado {
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: bolder;
+  }
+  
+  a {
+    background-color: var(--cor4);
     padding: 7px 40px;
     border: 1px solid;
-    font-size: 20px;
-    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bolder;
+    border-radius: 10px;
     text-decoration: none;
-    color: black;
-    background-color: aliceblue;
-}
-
+  }
+  
