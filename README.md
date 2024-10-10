@@ -30,5 +30,5 @@ Este projeto é um conversor de moedas desenvolvido em Java usando o framework S
 Clone este repositório em sua máquina local:
 
 ```bash
-git clone https://github.com/seu-usuario/conversor-de-moedas.git
+git https://github.com/RonaldoBelem/conversor-de-moedas.git
 cd conversor-de-moedas
